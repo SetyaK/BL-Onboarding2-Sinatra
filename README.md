@@ -24,35 +24,36 @@ This is my second project on SRE onboarding to understand the ruby sinatra web a
 
 ## Onboarding and Development Guide
 ### Prerequisite
-1. Ministore Ruby Gem,
+1. Ministore Ruby Gem,  
   [Guide](https://github.com/SetyaK/BL-Onboarding1-Ruby)
 ### Setup
 1. Build Ministore gem
-2. Install required modules
+2. Install required modules  
   `$ bundle install`
-3. Run the application
-  `ruby ./main.rb`
+3. Run the application  
+  `ruby ./main.rb`  
+  Web application will run in port 4567
 ### Development Guide
 You can use [POSTMAN](https://www.getpostman.com/) to test the API
 #### API usage
-- Test the app is run
+- Test the app is run  
   `GET /`
-- Get list of all products
+- Get list of all products  
   `GET /product/`
-- Get a product
+- Get a product  
   `GET /product/[id]`
-- Add new product
-  `POST /product`
+- Add new product  
+  `POST /product`  
   Post variable:
   - `name`
   - `description`
   - `initial_stock`
-- Update a product
+- Update a product  
   `POST /product/[id]`
   Post variable:
   - `name`
   - `description`
-- Delete a product
+- Delete a product  
   `DELETE /product/[id]`
 
 ## On-Call Runbooks
