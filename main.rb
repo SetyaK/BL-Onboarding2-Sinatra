@@ -1,11 +1,10 @@
 require 'sinatra'
 require 'dotenv/load'
 require 'mini_store'
-
 ActiveRecord::Base.include_root_in_json = true
 
 get '/' do
-  'Hello world!'
+  'Ministore Web API is working!'
 end
 
 get '/product' do
